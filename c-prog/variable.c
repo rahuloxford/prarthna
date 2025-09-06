@@ -7,7 +7,8 @@ int main() {
     int age = 34;
     printf("User is %d year old.\n", age);
 
-    float marks = 83.5;
+    const float marks = 83.5;
+    // marks = 90.4; // error:
     printf("User scored %.1f marks.\n", marks);
 
     char letter = 'E';
